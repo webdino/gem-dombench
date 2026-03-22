@@ -4,12 +4,16 @@ https://webdino.github.io/gem-dombench/
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).  
 
 
-## アイコン素材サイト:  
+## アイコン素材サイト
+
+以下のサイトのアイコンを利用しています:
+
 [FLAT ICON DESIGN](http://flat-icon-design.com/)  
 [ICONSDB](https://www.iconsdb.com/)  
 [フリー素材ぱくたそ](http://www.pakutaso.com)  
 
-## 説明：  
+## 説明
+
 このアプリはDOM操作がG1M(など)の上できちんと高速に動作することを  
 検証し、デモとして閲覧することを目的に作られたアプリです。 
 
@@ -39,10 +43,14 @@ Slackのようなメッセンジャーアプリを想定しています。
 グラフ描画にはChart.jsを使用しています。グラフの各点をクリックすると表の対応した部分に移動します。
 これらはテーブル要素、canvas要素などで構成されています。
 
-## コーディング・ビルド手順  
-### 必要条件：  
-Node >= 6   
-### 手順：  
+## コーディング・ビルド手順
+
+### 必要条件
+
+Node >= 6
+
+### 手順
+
 ・このプロジェクトをクローンする  
 ・npm install create-react-app か npm install -g create-react-app を実行する  
 ・npm install を実行する  
@@ -57,7 +65,9 @@ Node >= 6
 変更したら、ビルドして下さい。
 
 ## ベンチマーク結果
-#### 環境  
+
+#### 環境
+
 * OS: Windows10  
 * PC: LZ650/S  
 * 負荷設定: ソースコード引用  
@@ -72,19 +82,34 @@ export const page3FloorNum: number = 120;
 export const page3RoomNum: number = 40;
 export const page4DataNum: number = 350;
 ```
-#### 結果  
+
+#### 結果
+
 * ページ1: 10.65sec  
 * ページ2: 12.72sec  
 * ページ3: 16.38sec  
 * ページ4: 15.79sec  
 * 合計: 55.54sec  
 
-#### 環境  
+#### 環境
+
 * OS: RZ/G1M  
 * 負荷設定: 上記と同じ
-#### 結果  
+
+#### 結果
+
 * ページ1: 98.07sec  
 * ページ2: 126.76sec  
 * ページ3: 113.55sec  
 * ページ4: 76.85sec  
 * 合計: 415.23sec  
+
+## ライセンス
+
+ソースコードは [MIT ライセンス](./LICENSE) のもとで提供されます。  
+ただし、public ディレクトリ配下のアイコン画像は MIT ライセンスの適用範囲外です。
+
+以下の各サービスの利用規約に従ってご利用ください。
+- アイコン素材: [FLAT ICON DESIGN](http://flat-icon-design.com/)
+- アイコン素材: [ICONSDB](https://www.iconsdb.com/)
+- 写真素材: [ぱくたそ](https://www.pakutaso.com)
